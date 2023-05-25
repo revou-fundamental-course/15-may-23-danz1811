@@ -1,0 +1,82 @@
+body {
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 100px solid #0d2b3e;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-top: 150px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  }
+  .container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #0d2b3e;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .input-group {
+    margin-bottom: 10px;
+  }
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  .input-group input {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #5c8b90;
+    border: none;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+  }
+  .section {
+    margin-top: 20px;
+  }
+  .section-header {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: cyan;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 10px;
+    border: 2px solid cyan;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .description {
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: #ccc;
+  }
+  #output_luas,
+  #output_keliling {
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: #0a1926;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+  }
+  .shape-image {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .shape-image img {
+    max-width: 100%;
+    height: auto;
+  }
